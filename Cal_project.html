@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العمليات الحسابية</title>
+    <link rel="stylesheet" href="Cal_project.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>إجراء العمليات الحسابية</h1>
+        <input type="number" id="num1" placeholder="الرقم الأول">
+        <input type="number" id="num2" placeholder="الرقم الثاني">
+
+        <select id="operation">
+            <option value="add">جمع</option>
+            <option value="subtract">طرح</option>
+            <option value="multiply">ضرب</option>
+            <option value="divide">قسمة</option>
+        </select>
+
+        <button id="calculateButton">حساب</button>
+        <p id="resultDisplay"></p>
+
+        <h2>عرض اليوم والتاريخ</h2>
+        <button id="showDateButton">عرض اليوم والتاريخ</button>
+        <p id="dateDisplay"></p>
+
+        <h2>تغيير لون الأزرار</h2>
+        <div class="color-options">
+            <button class="color-option" data-color="#007bff">أزرق</button>
+            <button class="color-option" data-color="#28a745">أخضر</button>
+            <button class="color-option" data-color="#ffc107">أصفر</button>
+        </div>
+    </div>
+    <script src="Cal_project.js"></script>
+</body>
+
+</html>
